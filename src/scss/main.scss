@@ -1,0 +1,15 @@
+@import 'base';
+
+@import 'vars';
+
+@import 'sections/header';
+
+@import 'sections/footer';
+
+
+body{
+    background-color: #333aaa;
+    a{
+        background-color: #adaaaa;
+    }
+}

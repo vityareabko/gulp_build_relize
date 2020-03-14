@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.optimize-img-block {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.gulp-img {
+  max-width: 100%;
+  width: 190px; }
+
+body {
+  background-color: #333aaa; }
+  body a {
+    background-color: #adaaaa; }
