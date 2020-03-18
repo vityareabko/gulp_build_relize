@@ -57,7 +57,7 @@ gulp.task('watch', () => {
    //Следить за SCSS файлами
    gulp.watch('./src/scss/**/*.scss', gulp.series('styleSCSS'))
    gulp.watch('./src/js/**/*.js', browserSync.reload)
-   gulp.watch('./src/css/**/*.css', browserSync.reload)
+   gulp.watch('./src/css/**/*.css').on('change', browserSync.reload)
    
    
    //При изменении HTML запустить синхронизацию
