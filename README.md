@@ -1,3 +1,5 @@
+
+<!-- git config core.autocrlf true -->
 # gulp_build_relize
 2 основные команды
 1) gulp watch - следить за изменениями файлов scss js css html, и обновлять страницу в браузере
